@@ -156,7 +156,12 @@ class MyAnymalEnv(DirectRLEnv):
         # flat orientation
         flat_orientation = torch.sum(torch.square(self._robot.data.projected_gravity_b[:, :2]), dim=1)
 
+        # İleri hareket bonusu
+        forward_vel = self._robot.data.root_lin_vel_b[:, 0]  # X yönü (ileri)
+        forward_bonus = torch.clamp(forward_vel, min=0.0, max=2.0) * 0.5
+
         rewards = {
+            "forward_bonus" : forward_bonus * self.step_dt,
             "track_lin_vel_xy_exp": lin_vel_error_mapped * self.cfg.lin_vel_reward_scale * self.step_dt,
             "track_ang_vel_z_exp": yaw_rate_error_mapped * self.cfg.yaw_rate_reward_scale * self.step_dt,
             "lin_vel_z_l2": z_vel_error * self.cfg.z_vel_reward_scale * self.step_dt,
@@ -198,6 +203,15 @@ class MyAnymalEnv(DirectRLEnv):
 
         # Sample new commands
         self._commands[env_ids] = torch.zeros_like(self._commands[env_ids]).uniform_(-1.0, 1.0)
+
+        # Minimum command magnitude
+        command_magnitude = torch.norm(self._commands[env_ids, :2], dim=1, keepdim=True)
+        mask = command_magnitude < 0.3
+        self._commands[env_ids, :2] = torch.where(
+            mask.expand_as(self._commands[env_ids, :2]),
+            self._commands[env_ids, :2] * 2.0,
+            self._commands[env_ids, :2]
+        )
 
         # Reset robot state
         joint_pos = self._robot.data.default_joint_pos[env_ids]
