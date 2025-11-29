@@ -233,8 +233,6 @@ The custom environment includes real-time velocity visualization arrows:
 | 🟢 | **Green** | Actual Velocity |
 | 🔵 | **Cyan** | Heading Direction |
 
-## Hardware Requirements
-
 ### Tested Configuration
 
 | Component | Specification |
